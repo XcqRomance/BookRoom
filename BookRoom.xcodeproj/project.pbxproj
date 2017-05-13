@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8D519A221EC6BF070045A1B0 /* books.json in Resources */ = {isa = PBXBuildFile; fileRef = 8D519A211EC6BF070045A1B0 /* books.json */; };
 		8D6B2D801EB9F6AC00AAF33A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D6B2D7F1EB9F6AC00AAF33A /* AppDelegate.swift */; };
 		8D6B2D821EB9F6AC00AAF33A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D6B2D811EB9F6AC00AAF33A /* ViewController.swift */; };
 		8D6B2D871EB9F6AC00AAF33A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D6B2D861EB9F6AC00AAF33A /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8D519A211EC6BF070045A1B0 /* books.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = books.json; sourceTree = "<group>"; };
 		8D6B2D7C1EB9F6AC00AAF33A /* BookRoom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookRoom.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D6B2D7F1EB9F6AC00AAF33A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8D6B2D811EB9F6AC00AAF33A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -52,6 +54,7 @@
 		8D6B2D7E1EB9F6AC00AAF33A /* BookRoom */ = {
 			isa = PBXGroup;
 			children = (
+				8D519A211EC6BF070045A1B0 /* books.json */,
 				8D6B2D7F1EB9F6AC00AAF33A /* AppDelegate.swift */,
 				8D6B2D811EB9F6AC00AAF33A /* ViewController.swift */,
 				8D6B2D861EB9F6AC00AAF33A /* Assets.xcassets */,
@@ -121,6 +124,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D519A221EC6BF070045A1B0 /* books.json in Resources */,
 				8D6B2D8A1EB9F6AC00AAF33A /* LaunchScreen.storyboard in Resources */,
 				8D6B2D871EB9F6AC00AAF33A /* Assets.xcassets in Resources */,
 			);
